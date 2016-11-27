@@ -1,0 +1,109 @@
+/*!
+ * Start Bootstrap - 3 Col Portfolio (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 180px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family: "Cormorant Garamond", serif;
+    font-size: 16px;
+    color: rgb(24,23,41);
+}
+
+a {
+  color: rgb(24,23,41);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: rgb(24,23,41);
+  text-decoration: underline;
+}
+
+/*Not quite getting the effect I want with 
+the header, also the pictures are going 
+behind the header, don't want it to be  */
+
+
+.navbar-header {
+	color: rgb(24,23,41);
+}
+
+.navbar {
+	background-color: white;
+}
+
+.sr-only {
+	color: rgb(24,23,41);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+  position: absolute;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+}
+
+.row {
+	color: rgb(24,23,41);
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+    color: rgb(24,23,41);
+}
+
+h3 {
+	font-family: "Caviar Dreams", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.header750 {
+  display: none;
+}
+
+.header1024 {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 990px) {
+  .header1024{display: none;
+  }
+
+  .header750 {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+
+
+
+
+
+
+
